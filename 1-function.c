@@ -1,17 +1,7 @@
 #include "main.h"
 
-struct global
-{
-	char *format;
-	int i;
-	int j;
-	int count;
-	va_list args;
-	char *str;
-} id2;
-
 /**
- * numlen - returns the length of a number
+ * _numlen - returns the length of a number
  * @num: number to be checked
  * Return: length of number
  */

@@ -17,6 +17,25 @@
 /* SIZES */
 #define S_LONG 2
 #define S_SHORT 1
+/**
+ * struct global - global struct
+ * @i:parameter
+ * @j:second parameter
+ * @count:count
+ * @str:pointer
+ * @format:pointer
+ * @args:list
+ */
+
+struct global
+{
+		char *format;
+		int i;
+		int j;
+		int count;
+		va_list args;
+		char *str;
+} id2;
 
 /**
  * struct fmt - Struct op
